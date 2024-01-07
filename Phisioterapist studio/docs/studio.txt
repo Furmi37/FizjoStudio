@@ -1,0 +1,6 @@
+Patient: Olo Bratek, hurts: leg, registered for massage
+Patient: Karo Pajo, hurts: Knee, registered for phisioterapist consultation
+Patient: Mateusz Pająk, hurts: Knee, registered for massage
+Patient: Olo Bratek, hurts: Head, registered for phisioterapist consultation
+-----------------------------------------------------------
+
