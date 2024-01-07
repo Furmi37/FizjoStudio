@@ -1,1 +1,2 @@
 # FizjoStudio
+It is a program which will help to organize as a Phisioterapist. It is a demo version. In this programm you can add patients that wil come to you today, and you can register them to your service, find them or print their list. They are also moved to document. Every single day is seperated in doc beetwen the lines (for demo version every exit of program ends a day and puts line). You have list of patients only added today, but in doc you can see every patient from the begining.
