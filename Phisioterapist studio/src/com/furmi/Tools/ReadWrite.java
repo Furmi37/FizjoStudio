@@ -3,8 +3,8 @@ package com.furmi.Tools;
 import java.io.*;
 
 public class ReadWrite {
-    private String fileName = "/Users/furm/Desktop/java/Phisioterapist studio/docs/studio.txt";
-    private File file = new File(fileName);
+    private final String fileName = "/Users/furm/Desktop/java/Phisioterapist studio/docs/studio.txt";
+    private final File file = new File(fileName);
     public void writeToFile(String s){
         checkOrCreateFile();
         try(

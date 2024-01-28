@@ -27,13 +27,13 @@ public class StudioService {
 
         public void Loop (){
             int option = 5;
-            System.out.println("Weclome to our studio! :)");
+            System.out.println("Weclome in our studio! :)");
             do {
                 printOptions();
                 option = sc.nextInt();
                 switch (option){
                     case EXIT -> studio.exit();
-                    case REGISTER -> studio.registerServiceForPatient((studio.addPatientToBase(sdc.createPatientData())));
+                    case REGISTER -> studio.registerServiceForPatient((studio.addPatientToBase(sdc.createPatientData())),sdc.createServiceData());
                     case FIND -> studio.findPatient(sdc.createPatientDataToFind());
                     case SHOW -> studio.printPatientsList();
                     case HOW_MANY_PATIENTS -> studio.howManyPatientsToday();
@@ -42,16 +42,13 @@ public class StudioService {
 
             }while (option != 0);
         }
-
         private void printOptions (){
             System.out.println("Enter option: ");
             System.out.println("0 - exit ");
-            System.out.println("1 - register patient");//dodaj do pliku
+            System.out.println("1 - register patient");
             System.out.println("2 - find patient");
-            System.out.println("3 - show patients list");//wczytaj z pliku!!
+            System.out.println("3 - show all patients list");
             System.out.println("4 - show how many patients registered today");
-
-            //read from base
         }
     }
 }
