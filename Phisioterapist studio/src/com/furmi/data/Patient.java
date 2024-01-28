@@ -7,7 +7,11 @@ public class Patient extends Person {
         super(firstName, lastName);
         this.sickness = sickness;
     }
+    public Patient (String firstName, String lastName){
+        super(firstName, lastName);
+    }
     public Patient(){}
+
 
     public Service getService() {
         return service;
