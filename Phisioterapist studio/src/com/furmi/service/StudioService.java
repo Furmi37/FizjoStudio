@@ -6,15 +6,10 @@ import java.util.Scanner;
 
 public class StudioService {
 
-    /*
-    README!!!
-    It is a program which will help to organize as a Phisioterapist. It is a demo version. In this programm you can add patients that will
-    come to you today, and you can register them to your service, find them or print their list. They are also moved to document. Every single
-    day is seperated in doc beetwen the lines (for demo version every exit of program ends a day and puts line). You have list of patients only
-    added today, but in doc you can see every patient from the begining.
-     */
-    static Scanner sc = new Scanner(System.in);
-    static Studio studio = new Studio();
+
+    private static Scanner sc = new Scanner(System.in);
+    private static Studio studio = new Studio();
+    private static StudioDataScanner sdc = new StudioDataScanner();
     public static void main(String[] args) {
         Option option = new Option();
         ReadWrite read = new ReadWrite();
@@ -38,10 +33,11 @@ public class StudioService {
                 option = sc.nextInt();
                 switch (option){
                     case EXIT -> studio.exit();
-                    case REGISTER -> studio.registerPatient(studio.readAndCreatePatient());
-                    case FIND -> studio.findRegisteredPatient();
+                    case REGISTER -> studio.registerServiceForPatient((studio.addPatientToBase(sdc.createPatientData())));
+                    case FIND -> studio.findPatient(sdc.createPatientDataToFind());
                     case SHOW -> studio.printPatientsList();
                     case HOW_MANY_PATIENTS -> studio.howManyPatientsToday();
+                    default -> throw new IllegalStateException("Unexpected value: " + option);
                 }
 
             }while (option != 0);
