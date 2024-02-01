@@ -12,7 +12,6 @@ public class Patient extends Person {
     }
     public Patient(){}
 
-
     public Service getService() {
         return service;
     }

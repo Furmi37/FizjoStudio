@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class StudioService {
 
-
     private static Scanner sc = new Scanner(System.in);
     private static Studio studio = new Studio();
     private static StudioDataScanner sdc = new StudioDataScanner();

@@ -23,7 +23,6 @@ public class Studio {
         return patientNumber;
     }
 
-
     public Patient addPatientToBase(Patient patient) {
         patients.add(patient);
         patientNumber++;

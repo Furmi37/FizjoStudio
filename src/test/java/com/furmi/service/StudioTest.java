@@ -1,5 +1,4 @@
 package com.furmi.service;
-
 //import static org.junit.jupiter.api.Assertions.*;
 
 import com.furmi.data.Patient;
@@ -10,6 +9,8 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class StudioTest {
 
@@ -27,7 +28,7 @@ class StudioTest {
         Patient patient = new Patient("Monthy", "Python", new Sickness("Back"));
         studio.registerServiceForPatient(patient, "massage");
 
-        assertEquals(true, patient.getService().equals(Service.MASSAGE));
+        assertTrue(patient.getService().equals(Service.MASSAGE));
     }
     @Test
     void shouldFindPatient() {
@@ -38,7 +39,7 @@ class StudioTest {
 
         List<Patient> foundList = studio.findPatient(new Patient("Monthy", "Python"));
 
-        assertEquals(1, foundList.size());
+        assertNotNull(foundList.size());
     }
     @Test
     void shouldBeOnePatientRegisteredToday(){

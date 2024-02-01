@@ -13,7 +13,6 @@ public class StudioDataScanner {
     private Scanner sc = new Scanner(System.in);
     private ReadWrite readWrite = new ReadWrite();
 
-
     public Sickness createSicknessData (){
         System.out.println("Which body part hurts?");
         String sickness = sc.nextLine();
@@ -40,8 +39,7 @@ public class StudioDataScanner {
 
     public String createServiceData (){
         printServices();
-        String service = sc.nextLine();
-        return service;
+        return sc.nextLine();
     }
 
 

@@ -1,9 +1,5 @@
 package com.furmi.data;
 
-import com.furmi.service.StudioDataScanner;
-
-import java.util.Scanner;
-
 public class Sickness {
     private String sickness;
 
