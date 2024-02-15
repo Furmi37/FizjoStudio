@@ -16,3 +16,4 @@ It is an application which will help to organize as a Phisioterapist. In app you
 
 [Requirements]
 - Java [20]
+- InteliJ IDEA
