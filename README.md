@@ -7,6 +7,8 @@ Fizjostudio is application that was created to leran programming.
 Technologies:
 - Java (20.0)
 - Collections API
+- Maven
+- InteliJ IDEA
 - JUnit5 
 
 [Features]
