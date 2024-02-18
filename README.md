@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Furmi37/FizjoStudio/assets/147946906/b111700d-9bd2-4f95-9903-d4cb8a4acdf2" width="600" height="400" />
 
-Fizjostudio is application that was created to leran programming. 
+Fizjostudio is application that was created while I was learning programming. 
 
 Technologies:
 - Java (20.0)
