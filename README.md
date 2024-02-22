@@ -5,8 +5,7 @@
 Fizjostudio is application that was created while I was learning programming. 
 
 ### Technologies:
-- Java (20.0)
-- Collections API
+- Java (20.0) - Collections API
 - Maven
 - InteliJ IDEA
 - JUnit5 
@@ -16,7 +15,6 @@ It is an application which will help to organize as a Phisioterapist. In app you
 
 ### Requirements
 - Java [20]
-- InteliJ IDEA
 
 ### How to run app in console:
 
