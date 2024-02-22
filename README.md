@@ -1,6 +1,6 @@
 ## FizjoStudio - application to help organizing Phisioterapist studio
 
-<img src="https://github.com/Furmi37/FizjoStudio/assets/147946906/b111700d-9bd2-4f95-9903-d4cb8a4acdf2" width="600" height="400" />
+<img src="https://github.com/Furmi37/FizjoStudio/assets/147946906/b111700d-9bd2-4f95-9903-d4cb8a4acdf2" width="300" height="200" />
 
 Fizjostudio is application that was created while I was learning programming. 
 
@@ -20,7 +20,7 @@ It is an application which will help to organize as a Phisioterapist. In app you
 
 ### How to run app in console:
 
-- You need to open terminal and find our java file at computer, enter a directory where you have our project.
-- Then enter to source file - src directory
-- Then you need use 'javac StudioService.java' in command line - this will create us a FizjoStudio.class in folder with FizjoStudio.java
-- Then we use 'java FizjoStudio' and our program should work sucessfully
+- In terminal you need to go to directory with project - FizjoStudio,
+- You need to go to directories FijzoStudio -> Phisioterapist studio -> src -> com -> furmi,
+- Then you need to write in terminal command line: 'javac -d out data/*.java service/*.java Tools/*.java',
+- After that write in command line: 'java -cp out com.furmi.service.StudioService' and app should work succesfully
