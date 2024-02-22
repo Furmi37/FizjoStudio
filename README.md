@@ -5,7 +5,7 @@
 Fizjostudio is application that was created while I was learning programming. 
 
 ### Technologies:
-- Java (20.0) - Collections API
+- Java (20.0) - Collections API, File operations, System In/Out
 - Maven
 - InteliJ IDEA
 - JUnit5 
