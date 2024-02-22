@@ -20,5 +20,10 @@ It is an application which will help to organize as a Phisioterapist. In app you
 
 - In terminal you need to go to directory with project - FizjoStudio,
 - You need to go to directories FijzoStudio -> Phisioterapist studio -> src -> com -> furmi,
-- Then you need to write in terminal command line: 'javac -d out data/*.java service/*.java Tools/*.java',
-- After that write in command line: 'java -cp out com.furmi.service.StudioService' and app should work succesfully
+- Then you need to write in terminal command line first line from below,
+- After that write in command line the second line and app should work succesfully
+  
+Comand Line:
+```
+furmi % javac -d out data/*.java service/*.java Tools/*.java
+furmi % java -cp out com.furmi.service.StudioService
