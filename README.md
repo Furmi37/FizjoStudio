@@ -25,5 +25,5 @@ It is an application which will help to organize as a Phisioterapist. In app you
   
 Comand Line:
 ```
-furmi % javac -d out data/*.java service/*.java Tools/*.java
-furmi % java -cp out com.furmi.service.StudioService
+ % javac -d out data/*.java service/*.java Tools/*.java
+ % java -cp out com.furmi.service.StudioService
